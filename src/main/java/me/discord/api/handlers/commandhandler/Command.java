@@ -4,7 +4,6 @@ import lombok.Getter;
 import net.dv8tion.jda.api.events.message.guild.GuildMessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
-
 public abstract class Command extends ListenerAdapter {
     @Getter
     private final CommandHandler commandHandler;
