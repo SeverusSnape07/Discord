@@ -9,5 +9,6 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface CommandHandler {
     String name();
-    String channel() default "";
+    String[] channelName() default {};
+    String[] channelId() default {};
 }
